@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "webpack --mode development --watch ./backend/frontend/src/index.js --output-path ./backend/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./backend/frontend/src/index.js --output-path ./backend/frontend/static/frontend/main.js"
-
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,10 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2"
   }
 }
