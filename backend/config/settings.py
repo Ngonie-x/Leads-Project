@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Internal apps
     'leads',
+    'frontend',
 
     # External apps
     'rest_framework',
